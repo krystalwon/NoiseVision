@@ -31,6 +31,7 @@ Urban noise pollution affects millions daily. Traditional audio analysis methods
 ## **📊 Dataset**
 _ESC-50 (Environmental Sound Classification 50)_
 
+- More detailed info about this [dataset](https://datasets.activeloop.ai/docs/ml/datasets/esc-50-dataset/)
 - 2,000 short audio recordings of real-world environments
 - 5 seconds duration per clip
 - 50 semantic sound classes
@@ -140,6 +141,7 @@ cjm_torchvision_tfms
 ## **📁 Data Preparation**
 
 _**1. Annotation Format**_
+
 LabelMe JSON format containing:
 - Image metadata
 - Polygon annotations for noise regions
@@ -156,7 +158,8 @@ _**2. Train/Validation Split**_
 **_Mask R-CNN Configuration_**
 
 - Base Model: ResNet-50 FPN v2 (COCO pre-trained)
-**Modifications:**
+
+**🔴 Modifications:**
 - Custom FastRCNNPredictor for urban noise classes
 - Custom MaskRCNNPredictor for segmentation
 - Output: Bounding boxes and segmentation masks for noise regions
