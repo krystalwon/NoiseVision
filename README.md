@@ -181,3 +181,33 @@ _**Training Configuration**_
 - Batch Size: 4
 - Image Size: 512x512
 
+
+## **📈 Results**
+
+_**Training Metrics**_
+
+Final Model Performance:
+- Final Training Loss: 0.083785
+- Final Validation Loss: 0.158384
+- Best Validation Loss: 0.147019 (achieved at Epoch 0)
+- Final Loss Difference: 0.074599
+
+![image](https://github.com/user-attachments/assets/effd5c4f-1d74-43a4-8b35-582b9d04c751)
+
+1. **Training Progress**: The model shows steady improvement with training loss decreasing from ~0.089 to 0.084 over 40 epochs
+2. **Validation Behavior**: Validation loss started at 0.147 (best value) and stabilized around 0.158
+3. **Loss Difference**: The gap between validation and training loss remains relatively stable, indicating good generalization without severe overfitting
+4. **Learning Pattern**: The validation-training loss difference (right plot) shows some fluctuation but maintains a consistent range around 0.04-0.08
+
+
+_**Model Performance**_
+- Consistent learning with gradual improvement
+- Good generalization demonstrated by stable train-validation gap
+- No severe overfitting observed despite 40 epochs of training
+
+
+## **🔄 Future Work**
+
+- Extend to more noise categories
+- Implement real-time audio processing
+- Develop web interface API for demo (maybe)
