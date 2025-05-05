@@ -1,4 +1,4 @@
-# NoiseVision: Urban Noise Pollution Detection with Mask R-CNN
+# ·NoiseVision·: Urban Noise Pollution Detection with Mask R-CNN
 
 ![image](https://github.com/user-attachments/assets/76459f0f-694b-4792-a12b-5ec394487289)
 
