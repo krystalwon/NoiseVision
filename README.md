@@ -3,7 +3,7 @@
 ![image](https://github.com/user-attachments/assets/76459f0f-694b-4792-a12b-5ec394487289)
 
 
-**NoiseVision** is a deep learning project that uses Mask R-CNN to detect and segment urban noise pollution in spectrogram images. By converting audio signals into visual spectrograms, this system can identify and localize different types of urban noises automatically. This is the final project for MUSA 6950 AI For Sustainbility.
+**NoiseVision** is a deep learning project that uses Mask R-CNN to detect and segment urban noise pollution in spectrogram images. By converting audio signals into visual spectrograms, this system can identify and localize different types of urban noises automatically.
 
 --------
 
